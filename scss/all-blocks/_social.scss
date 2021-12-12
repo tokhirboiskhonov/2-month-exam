@@ -1,0 +1,23 @@
+.socials__list {
+    display: flex;
+    align-items: center;
+    color: transparent;
+}
+
+.socials__item {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.socials__item + .socials__item {
+    margin-left: 24px;
+}
+
+.socials__image {
+    display: block;
+    transition: opacity 0.25s ease;
+}
+
+.socials__item:hover .socials__image {
+    opacity: 0;
+}

@@ -1,0 +1,44 @@
+.header__button{
+    max-width: 173px;
+    width: 100%;
+    margin: 0;
+    padding: 16px;
+    text-align: center;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+
+    &:hover {
+        background-color: #DA6D97;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+        line-height: 18px;
+        font-style: normal;
+        font-weight: 700;
+        font-family: 'Public Sans' 'Arial' sans-serif;
+        letter-spacing: -0.115385px;
+        color: #FBFCFE;
+        text-align: center;
+    }
+}
+
+.header__button__text{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.11538461595773697px;
+    text-align: center;
+    font-family: 'Public Sans';
+    color: #FBFCFE;
+
+}

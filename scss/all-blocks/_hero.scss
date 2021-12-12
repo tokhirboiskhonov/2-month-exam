@@ -1,0 +1,248 @@
+.hero__inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 75px;
+    padding: 0;
+    padding-right: 95px;
+}
+
+.hero__form {
+    margin: 0;
+    padding: 0;
+    padding-top: 65px;
+    
+}
+
+.hero__heading {
+    max-width: 546px;
+    margin: 0;
+    margin-left: 165px;
+    margin-bottom: 45px;
+    padding: 0;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.5538461804389954px;
+    text-align: left;
+    font-family: 'DM Serif Display';
+    color: #36536B;
+    
+}
+.hero__label {
+    position: relative;
+    max-width: 445px;
+    margin-left: 165px;
+}
+
+.hero__input {
+    max-width: 445px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 16px;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    background: #FBFCFE;
+    border: none;
+}
+
+.hero__input__button {
+    position: absolute;
+    right: 0;
+}
+
+.hero__text {
+    margin: 0;
+    margin-left: 190px;
+    padding: 0;
+    padding-left: 27px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: 'Public Sans';
+    color: #6C8294;
+}
+
+.hero__text__strong {
+    font-weight: 700;
+}
+
+.hero__image {
+    width: 263px;
+    height: 500px;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1100px) {
+    .hero__heading {
+        margin-left: 100px;
+    }
+    
+    .hero__label {
+        margin-left: 100px;
+    }
+    
+    .hero__text {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .hero__inner{
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .hero__heading {
+        margin-left: 60px;
+    }
+    
+    .hero__label {
+        margin-left: 60px;
+    }
+    
+    .hero__text {
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .hero__heading {
+        margin-left: 20px;
+    }
+    
+    .hero__label {
+        margin-left: 20px;
+    }
+    
+    .hero__text {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .hero__inner {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 100px;
+        justify-content: flex-end;
+        
+    }
+    .hero__form {
+        padding-top: 0;
+    }
+    .hero__heading {
+        margin: 0 auto;
+        padding: 0;
+        margin-right: 98px;
+        margin-bottom: 22px;
+        margin-left: 97px;
+        max-width: 570px;
+        width: 100%;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        
+        
+    }
+    
+    .hero__label {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+        margin-right: 161px;
+        margin-bottom: 38px;
+        margin-left: 162px;
+    }
+    
+    .hero__text {
+        padding: 0;
+        text-align: center;
+    }
+    .hero__image {
+        margin: 0;
+        padding: 0;
+        width: 159px;
+        height: 300px;
+        
+        
+    }
+}
+
+@media only screen and (max-width:700px){
+    .hero__heading {
+        margin-left: 10px;
+    }
+    
+    .hero__label {
+        margin-left: 30px;
+    }
+    
+    .hero__input {
+        display: inline-block;
+    }
+    
+    .hero__text {
+        margin-left: -20px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .hero__form {
+        margin-left: 450px;
+    }
+
+    .hero__heading {
+        max-width: 327px;
+        width: 100%;
+        margin-left: 30px;
+        font-size: 32px;
+        line-height: 36px;
+        font-family: "DM Serif Display", "Times new roman", serif;
+        
+    }
+    
+    .hero__input { 
+        display: block;
+    }
+    
+    .hero__input__button {
+        display: block;
+        min-width: 327px;
+        width: 100%;
+        position: static;
+        text-align: center;
+    }
+
+    .hero__text {
+        margin-left: -120px;
+    }
+
+    .hero__image {
+        max-width: 128px;
+        width: 100%;
+        height: 240px;
+        margin-left: 300px;
+    }    
+    
+}
+
+@media only screen and(max-width:425px) {
+    .hero__inner {
+        margin-bottom: 80px;
+    }
+
+    .hero__image {
+        max-width: 128px;
+        width: 100%;
+        height: 240px;
+        margin-left: 230px;
+    } 
+}

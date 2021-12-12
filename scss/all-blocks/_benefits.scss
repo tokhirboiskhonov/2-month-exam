@@ -1,0 +1,70 @@
+.benefits__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 147px;
+}
+
+.benefits__item-1::before {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    width: 106px;
+    height: 106px;
+    background-image: url('../../images/Personal-Finances.png');
+    content: '';
+}
+
+.benefits__item-2::before {
+    display: block;
+    margin: 0 15px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    width: 106px;
+    height: 106px;
+    background-image: url('../../images/Banking-Coverage.png');
+    content: '';
+}
+
+.benefits__item-3::before {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    width: 106px;
+    height: 106px;
+    background-image: url('../../images/Consumer-Payments.png');
+    content: '';
+}
+
+.benefits__heading {
+    max-width: 350px;
+    width: 100%;
+    font-family:  'Public sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.138462px;
+    color: #36536B;
+}
+
+.benefits__text {
+    max-width: 350px;
+    width: 100%;
+    font-family:  'Public sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    color: #6C8294;
+}
+
+@media only screen and (max-width: 1015px) {
+    .benefits__list {
+        flex-wrap: wrap;
+    }
+}
